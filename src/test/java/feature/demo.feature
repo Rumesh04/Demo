@@ -15,7 +15,7 @@ Then Verify that User navigate to Flight Search result page is displayed
 When User clicks Sort Dropdown and Selects "Price: High to Low"
 Then User Checks sort dropdown has displayed "Price: High to Low"
 When User Checks the Price Range slider
-When User clicks "American Airlines" Flight from search result page
+When User clicks "Air India Limited" Flight from search result page
 Then User should navigate to the Booking details page
 
 When User select the title

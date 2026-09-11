@@ -97,7 +97,7 @@ public class PomClass extends BaseClass {
 	}
 	
 	//search result page
-	@FindBy(xpath = "(//p[text()='British Airways'])[2]")
+	@FindBy(xpath = "(//p[text()='Air India Limited'])[2]")
 	private WebElement checkFlight;
 	
 	@FindBy(xpath = "//div[@class='p-3 sm:p-4']")
@@ -106,7 +106,7 @@ public class PomClass extends BaseClass {
 	@FindBy(xpath = "//p[contains(@class,'text-[11px] font-semibold text-gray')]")
 	private List<WebElement> flightName;
 	
-	@FindBy(xpath = "//*[normalize-space()='American Airlines']/ancestor::div[.//button[.//span[normalize-space()='Book Now']]][1]//button[.//span[normalize-space()='Book Now']]")
+	@FindBy(xpath = "//*[normalize-space()='Air India Limited']/ancestor::div[.//button[.//span[normalize-space()='Book Now']]][1]//button[.//span[normalize-space()='Book Now']]")
 	private WebElement clickBookBtn;
 	
 	@FindBy(xpath = "(//select[@class='select'])[1]")

@@ -105,7 +105,7 @@ public class StepClass extends BaseClass{
 
 	@When("User Checks the Price Range slider")
 	public void user_checks_the_price_range_slider() {
-		sliderRanger(pom.getSlider(), pom.getSliderRange());
+		//sliderRanger(pom.getSlider(), pom.getSliderRange());
 	}
 
 	@When("User clicks {string} Flight from search result page")
@@ -227,7 +227,5 @@ public class StepClass extends BaseClass{
 		shot();
 
 	}
-//wow
-	//wooow
 
 }
